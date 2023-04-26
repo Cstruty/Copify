@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		56F6121E29F9C76A005F9D8C /* CopifyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F6121D29F9C76A005F9D8C /* CopifyApp.swift */; };
+		56F6122029F9C76A005F9D8C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F6121F29F9C76A005F9D8C /* ContentView.swift */; };
+		56F6122229F9C76C005F9D8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56F6122129F9C76C005F9D8C /* Assets.xcassets */; };
+		56F6122529F9C76C005F9D8C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56F6122429F9C76C005F9D8C /* Preview Assets.xcassets */; };
+		56F6123029F9C76C005F9D8C /* CopifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F6122F29F9C76C005F9D8C /* CopifyTests.swift */; };
+		56F6123A29F9C76C005F9D8C /* CopifyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F6123929F9C76C005F9D8C /* CopifyUITests.swift */; };
+		56F6123C29F9C76C005F9D8C /* CopifyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F6123B29F9C76C005F9D8C /* CopifyUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		56F6122C29F9C76C005F9D8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56F6121229F9C76A005F9D8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56F6121929F9C76A005F9D8C;
+			remoteInfo = Copify;
+		};
+		56F6123629F9C76C005F9D8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56F6121229F9C76A005F9D8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56F6121929F9C76A005F9D8C;
+			remoteInfo = Copify;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		56F6121A29F9C76A005F9D8C /* Copify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Copify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		56F6121D29F9C76A005F9D8C /* CopifyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopifyApp.swift; sourceTree = "<group>"; };
+		56F6121F29F9C76A005F9D8C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		56F6122129F9C76C005F9D8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		56F6122429F9C76C005F9D8C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		56F6122629F9C76C005F9D8C /* Copify.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Copify.entitlements; sourceTree = "<group>"; };
+		56F6122B29F9C76C005F9D8C /* CopifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CopifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		56F6122F29F9C76C005F9D8C /* CopifyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopifyTests.swift; sourceTree = "<group>"; };
+		56F6123529F9C76C005F9D8C /* CopifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CopifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		56F6123929F9C76C005F9D8C /* CopifyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopifyUITests.swift; sourceTree = "<group>"; };
+		56F6123B29F9C76C005F9D8C /* CopifyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopifyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56F6121729F9C76A005F9D8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56F6122829F9C76C005F9D8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56F6123229F9C76C005F9D8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		56F6121129F9C76A005F9D8C = {
+			isa = PBXGroup;
+			children = (
+				56F6121C29F9C76A005F9D8C /* Copify */,
+				56F6122E29F9C76C005F9D8C /* CopifyTests */,
+				56F6123829F9C76C005F9D8C /* CopifyUITests */,
+				56F6121B29F9C76A005F9D8C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		56F6121B29F9C76A005F9D8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56F6121A29F9C76A005F9D8C /* Copify.app */,
+				56F6122B29F9C76C005F9D8C /* CopifyTests.xctest */,
+				56F6123529F9C76C005F9D8C /* CopifyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56F6121C29F9C76A005F9D8C /* Copify */ = {
+			isa = PBXGroup;
+			children = (
+				56F6121D29F9C76A005F9D8C /* CopifyApp.swift */,
+				56F6121F29F9C76A005F9D8C /* ContentView.swift */,
+				56F6122129F9C76C005F9D8C /* Assets.xcassets */,
+				56F6122629F9C76C005F9D8C /* Copify.entitlements */,
+				56F6122329F9C76C005F9D8C /* Preview Content */,
+			);
+			path = Copify;
+			sourceTree = "<group>";
+		};
+		56F6122329F9C76C005F9D8C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				56F6122429F9C76C005F9D8C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		56F6122E29F9C76C005F9D8C /* CopifyTests */ = {
+			isa = PBXGroup;
+			children = (
+				56F6122F29F9C76C005F9D8C /* CopifyTests.swift */,
+			);
+			path = CopifyTests;
+			sourceTree = "<group>";
+		};
+		56F6123829F9C76C005F9D8C /* CopifyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				56F6123929F9C76C005F9D8C /* CopifyUITests.swift */,
+				56F6123B29F9C76C005F9D8C /* CopifyUITestsLaunchTests.swift */,
+			);
+			path = CopifyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		56F6121929F9C76A005F9D8C /* Copify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56F6123F29F9C76C005F9D8C /* Build configuration list for PBXNativeTarget "Copify" */;
+			buildPhases = (
+				56F6121629F9C76A005F9D8C /* Sources */,
+				56F6121729F9C76A005F9D8C /* Frameworks */,
+				56F6121829F9C76A005F9D8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Copify;
+			productName = Copify;
+			productReference = 56F6121A29F9C76A005F9D8C /* Copify.app */;
+			productType = "com.apple.product-type.application";
+		};
+		56F6122A29F9C76C005F9D8C /* CopifyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56F6124229F9C76C005F9D8C /* Build configuration list for PBXNativeTarget "CopifyTests" */;
+			buildPhases = (
+				56F6122729F9C76C005F9D8C /* Sources */,
+				56F6122829F9C76C005F9D8C /* Frameworks */,
+				56F6122929F9C76C005F9D8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56F6122D29F9C76C005F9D8C /* PBXTargetDependency */,
+			);
+			name = CopifyTests;
+			productName = CopifyTests;
+			productReference = 56F6122B29F9C76C005F9D8C /* CopifyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		56F6123429F9C76C005F9D8C /* CopifyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56F6124529F9C76C005F9D8C /* Build configuration list for PBXNativeTarget "CopifyUITests" */;
+			buildPhases = (
+				56F6123129F9C76C005F9D8C /* Sources */,
+				56F6123229F9C76C005F9D8C /* Frameworks */,
+				56F6123329F9C76C005F9D8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56F6123729F9C76C005F9D8C /* PBXTargetDependency */,
+			);
+			name = CopifyUITests;
+			productName = CopifyUITests;
+			productReference = 56F6123529F9C76C005F9D8C /* CopifyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56F6121229F9C76A005F9D8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					56F6121929F9C76A005F9D8C = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					56F6122A29F9C76C005F9D8C = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 56F6121929F9C76A005F9D8C;
+					};
+					56F6123429F9C76C005F9D8C = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 56F6121929F9C76A005F9D8C;
+					};
+				};
+			};
+			buildConfigurationList = 56F6121529F9C76A005F9D8C /* Build configuration list for PBXProject "Copify" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 56F6121129F9C76A005F9D8C;
+			productRefGroup = 56F6121B29F9C76A005F9D8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56F6121929F9C76A005F9D8C /* Copify */,
+				56F6122A29F9C76C005F9D8C /* CopifyTests */,
+				56F6123429F9C76C005F9D8C /* CopifyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56F6121829F9C76A005F9D8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56F6122529F9C76C005F9D8C /* Preview Assets.xcassets in Resources */,
+				56F6122229F9C76C005F9D8C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56F6122929F9C76C005F9D8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56F6123329F9C76C005F9D8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56F6121629F9C76A005F9D8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56F6122029F9C76A005F9D8C /* ContentView.swift in Sources */,
+				56F6121E29F9C76A005F9D8C /* CopifyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56F6122729F9C76C005F9D8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56F6123029F9C76C005F9D8C /* CopifyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56F6123129F9C76C005F9D8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56F6123C29F9C76C005F9D8C /* CopifyUITestsLaunchTests.swift in Sources */,
+				56F6123A29F9C76C005F9D8C /* CopifyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		56F6122D29F9C76C005F9D8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56F6121929F9C76A005F9D8C /* Copify */;
+			targetProxy = 56F6122C29F9C76C005F9D8C /* PBXContainerItemProxy */;
+		};
+		56F6123729F9C76C005F9D8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56F6121929F9C76A005F9D8C /* Copify */;
+			targetProxy = 56F6123629F9C76C005F9D8C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		56F6123D29F9C76C005F9D8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		56F6123E29F9C76C005F9D8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		56F6124029F9C76C005F9D8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Copify/Copify.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Copify/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Strut.Copify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		56F6124129F9C76C005F9D8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Copify/Copify.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Copify/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Strut.Copify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		56F6124329F9C76C005F9D8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Strut.CopifyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Copify.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Copify";
+			};
+			name = Debug;
+		};
+		56F6124429F9C76C005F9D8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Strut.CopifyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Copify.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Copify";
+			};
+			name = Release;
+		};
+		56F6124629F9C76C005F9D8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Strut.CopifyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Copify;
+			};
+			name = Debug;
+		};
+		56F6124729F9C76C005F9D8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Strut.CopifyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Copify;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56F6121529F9C76A005F9D8C /* Build configuration list for PBXProject "Copify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56F6123D29F9C76C005F9D8C /* Debug */,
+				56F6123E29F9C76C005F9D8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56F6123F29F9C76C005F9D8C /* Build configuration list for PBXNativeTarget "Copify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56F6124029F9C76C005F9D8C /* Debug */,
+				56F6124129F9C76C005F9D8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56F6124229F9C76C005F9D8C /* Build configuration list for PBXNativeTarget "CopifyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56F6124329F9C76C005F9D8C /* Debug */,
+				56F6124429F9C76C005F9D8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56F6124529F9C76C005F9D8C /* Build configuration list for PBXNativeTarget "CopifyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56F6124629F9C76C005F9D8C /* Debug */,
+				56F6124729F9C76C005F9D8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 56F6121229F9C76A005F9D8C /* Project object */;
+}
